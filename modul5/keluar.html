@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Keluar Parkir Kedaraan Roda Dua</title>
+		<style>
+		body{
+		background-color: #fffefe;
+		font-family: Arial, Lucida sans unicode;
+		padding: none;
+		margin :4px 4px;
+		}
+		header{
+		background-color: #152ff9;
+		text-align:center;
+		font-family: Arial
+		padding: none;
+		margin :1px 1px;
+		}
+		
+		.sesuatu{
+		height:240px;
+		width:1350px;
+		margin:auto;
+		
+		}
+		.sesuatu2{
+		height:240px;
+		width:600px;
+		margin:auto;
+		background-color:pink;
+		border: 1px solid #fcfefc;
+		}
+		.sesuatu2 label{
+		padding:1em;
+		margin-right: 10px;
+		margin-top: 5px;
+		}
+		.sesuatu2 button{
+		margin-top:5px;
+		float:center;
+		}
+	
+		</style>
+	
+</head>
+	<body>
+		<form name="formkeluar" action="keluar.php" method="POST" enctype="multipart/data">
+		<header><h2>KENDARAAN KELUAR</h2>
+		</header>
+		<div class="sesuatu">
+			<div class="sesuatu2">
+				
+					
+					<label>NOMOR POLISI: 
+					<input type="text" name="nopol" value="" ><br></label>
+					
+					<button>
+					<input type="submit" value="submit"></button>
+				
+			</div>
+		</div>
+	</body>
+
+</html>
