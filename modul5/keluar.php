@@ -67,8 +67,11 @@ $menit=$menitahir-$menitawal;
 $detik=$detikahir-$detikawal;
 
 
-if($jam<12){
+if($jam<=11){
 echo "biaya= 1000";
+}
+else if($jam=12 &$menit=0&$detik=0){
+echo "biaya 1000";
 }
 else{
 echo "biaya=2000";
